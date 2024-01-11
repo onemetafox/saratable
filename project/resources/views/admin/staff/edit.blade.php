@@ -58,21 +58,30 @@
             <div class="form-group">
                 <label for="inp-phone">{{ __('Phone') }}</label>
                 <input type="text" class="form-control" id="inp-phone" name="phone"  placeholder="{{ __('Enter Phone') }}" value="{{$data->phone}}" required>
-			</div>
+            </div>
 
-			<div class="form-group">
-				<label for="inp-name">{{ __('Select Role') }}</label>
-                <select  class="form-control" name="role_id" required="">
-                    <option value="">{{ __('Select Role') }}</option>
-                      @foreach(DB::table('roles')->get() as $dta)
-                        <option value="{{ $dta->id }}" {{ $data->role_id == $dta->id ? 'selected' : '' }}>{{ $dta->name }}</option>
-                      @endforeach
-                </select>
-			  </div>
+            <div class="form-group">
+              <label for="inp-name">{{ __('Select Role') }}</label>
+              <select  class="form-control" name="role_id" required="">
+                  <option value="">{{ __('Select Role') }}</option>
+                    @foreach(DB::table('roles')->get() as $dta)
+                      <option value="{{ $dta->id }}" {{ $data->role_id == $dta->id ? 'selected' : '' }}>{{ $dta->name }}</option>
+                    @endforeach
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inp-name">{{ __('Select Directory') }}</label>
+
+              <select class="form-control mb-3" name="listing_id">
+                <option value="">{{ __('Select Directory') }}</option>
+                  @foreach(DB::table('listings')->get() as $dta)
+                  <option value="{{ $dta->id }}" {{ $data->listing_id == $dta->id ? 'selected' : '' }}>{{ $dta->name }}</option>
+                  @endforeach
+              </select>
+            </div>
 
 
-
-            <button type="submit" id="submit-btn" class="btn btn-primary w-100">{{ __('Submit') }}</button>
+          <button type="submit" id="submit-btn" class="btn btn-primary w-100">{{ __('Submit') }}</button>
 
         </form>
       </div>

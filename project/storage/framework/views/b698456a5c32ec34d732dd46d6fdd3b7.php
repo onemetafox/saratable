@@ -79,6 +79,17 @@
               </select>
             </div>
 
+            <div class="form-group">
+              <label for="inp-name"><?php echo e(__('Select Directory')); ?></label>
+
+              <select class="form-control mb-3" name="role_id">
+                <option value=""><?php echo e(__('Select Directory')); ?></option>
+                  <?php $__currentLoopData = DB::table('listings')->get(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $data): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <option value="<?php echo e($data->id); ?>"><?php echo e($data->name); ?></option>
+                  <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+              </select>
+            </div>
+
 
             <button type="submit" id="submit-btn" class="btn btn-primary w-100"><?php echo e(__('Submit')); ?></button>
         </form>

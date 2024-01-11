@@ -8,6 +8,7 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use Datatables;
+use Auth;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
 
@@ -20,7 +21,7 @@ class CategoryController extends Controller
 
     public function datatables(Request $request)
     {
-        $datas = Category::orderBy('id','desc');
+        $datas = Category::where('listing_id', Auth::guard('admin')->user()->listing_id)->orderBy('id', 'desc');
 
         return Datatables::of($datas)
                         ->addColumn('checkbox',function(Category $data){

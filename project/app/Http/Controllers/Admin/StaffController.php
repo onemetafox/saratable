@@ -81,6 +81,7 @@ class StaffController extends Controller
         }
 
         $input['role_id'] = $request->role_id;
+        $input['listing_id'] = $request->listing_id;
         $input['password'] = bcrypt($request['password']);
         $data->fill($input)->save();
 

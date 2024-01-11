@@ -17,6 +17,7 @@ class Category extends Model
         'parent_id',
         'is_top',
         'bg_color',
+        'listing_id'
     ];
 
     public function parent(){
@@ -34,4 +35,5 @@ class Category extends Model
     public function listings(){
         return $this->hasMany(Listing::class);
     }
+    
 }
