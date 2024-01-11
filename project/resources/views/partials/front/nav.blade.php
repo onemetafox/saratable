@@ -51,7 +51,7 @@
 
                             <li class="add-listing">
                                 <a href="{{ route('user.listing.type') }}" >
-                                    <i class="fas fa-plus me-2"></i>@lang('Add Listing')
+                                    <i class="fas fa-plus me-2"></i>@lang('Add Restaurant')
                                 </a>
                             </li>
                         @else
@@ -62,7 +62,7 @@
                             </li>
                             <li class="add-listing">
                                 <a href="{{ route('user.listing.type') }}" >
-                                    <i class="fas fa-plus me-2"></i>@lang('Add Listing')
+                                    <i class="fas fa-plus me-2"></i>@lang('Add Restaurant')
                                 </a>
                             </li>
                         @endauth
@@ -121,7 +121,7 @@
 
                         <li class="add-listing">
                             <a href="{{ route('user.listing.type') }}" >
-                                <i class="fas fa-plus me-2"></i>@lang('Add Listing')
+                                <i class="fas fa-plus me-2"></i>@lang('Add Restaurant')
                             </a>
                         </li>
                     @else
@@ -132,7 +132,7 @@
                         </li>
                         <li class="add-listing">
                             <a href="{{ route('user.listing.type') }}" >
-                                <i class="fas fa-plus me-2"></i>@lang('Add Listing')
+                                <i class="fas fa-plus me-2"></i>@lang('Add Restaurant')
                             </a>
                         </li>
                     @endauth

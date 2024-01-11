@@ -38,8 +38,8 @@
                         </th>
                         <th>{{ __('Title') }}</th>
                         <th>{{ __('Price') }}</th>
-                        <th>{{ __('Listing Limit') }}</th>
-                        <th>{{ __('Listing Duration') }}</th>
+                        <th>{{ __('Restaurant Limit') }}</th>
+                        <th>{{ __('Restaurant Duration') }}</th>
                         <th>{{ __('Status') }}</th>
                         <th>{{ __('Options') }}</th>
                     </tr>

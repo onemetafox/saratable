@@ -69,7 +69,7 @@
 
                                                 <div class="dsd-single-descr">
                                                     <div class="dsd-single-item">
-                                                        <span class="dsd-item-title">@lang('Listing Item'):</span>
+                                                        <span class="dsd-item-title">@lang('Restaurant Item'):</span>
                                                         <span class="dsd-item-info">{{ $beauty->listing->name }}</span>
                                                     </div>
 

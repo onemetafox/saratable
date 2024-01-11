@@ -114,22 +114,22 @@
                                         <div class="row">
                                             <div class="col-lg-3">
                                                 <div class="left-area">
-                                                    <h4 class="heading">{{ __('Listing Title') }} *</h4>
+                                                    <h4 class="heading">{{ __('Restaurant Title') }} *</h4>
                                                 </div>
                                             </div>
                                             <div class="col-lg-9">
-                                                <input type="text" class="input-field" name="name" placeholder="{{ __('Listing Title') }}" value="{{ $data->name}}">
+                                                <input type="text" class="input-field" name="name" placeholder="{{ __('Restaurant Title') }}" value="{{ $data->name}}">
                                             </div>
                                         </div>
 
                                         <div class="row">
                                             <div class="col-lg-3">
                                                 <div class="left-area">
-                                                    <h4 class="heading">{{ __('Listing Slug') }} *</h4>
+                                                    <h4 class="heading">{{ __('Restaurant Slug') }} *</h4>
                                                 </div>
                                             </div>
                                             <div class="col-lg-9">
-                                                <input type="text" class="input-field" name="slug" placeholder="{{ __('Listing Slug') }}" value="{{ $data->slug}}">
+                                                <input type="text" class="input-field" name="slug" placeholder="{{ __('Restaurant Slug') }}" value="{{ $data->slug}}">
                                             </div>
                                         </div>
                                     @endif
@@ -287,7 +287,7 @@
                                     <div class="row">
                                         <div class="col-lg-3">
                                             <div class="left-area">
-                                                <h4 class="heading">{{ __('Listing Video Provider') }}*</h4>
+                                                <h4 class="heading">{{ __('Restaurant Video Provider') }}*</h4>
                                             </div>
                                         </div>
                                         <div class="col-lg-9">
@@ -300,7 +300,7 @@
                                     <div class="row">
                                         <div class="col-lg-3">
                                             <div class="left-area">
-                                                <h4 class="heading">{{ __('Listing Video Url') }}*</h4>
+                                                <h4 class="heading">{{ __('Restaurant Video Url') }}*</h4>
                                             </div>
                                         </div>
 
@@ -312,7 +312,7 @@
                                     <div class="row mb-4">
                                         <div class="col-lg-3">
                                             <div class="left-area">
-                                                <h4 class="heading">{{ __('Listing Thumbnail') }}*</h4>
+                                                <h4 class="heading">{{ __('Restaurant Thumbnail') }}*</h4>
                                                 <p class="sub-heading">({{ __('Preferred Size 600 x 600') }})</p>
                                             </div>
                                         </div>
@@ -332,7 +332,7 @@
                                     <div class="row">
                                         <div class="col-lg-3">
                                             <div class="left-area">
-                                                <h4 class="heading">{{ __('Listing Gallary') }}</h4>
+                                                <h4 class="heading">{{ __('Restaurant Gallary') }}</h4>
                                             </div>
                                         </div>
                                         <div class="col-lg-9">

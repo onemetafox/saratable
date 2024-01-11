@@ -12,7 +12,7 @@
     <!-- ======================= dashboard Detail ======================== -->
     <div class="dashboard-wrap gray px-4 py-5">
         <a class="mobNavigation" data-bs-toggle="collapse" href="#MobNav" role="button" aria-expanded="false" aria-controls="MobNav">
-            <i class="fas fa-bars me-2"></i>@lang('Listing')
+            <i class="fas fa-bars me-2"></i>@lang('Restaurant')
         </a>
         <div class="collapse" id="MobNav">
             @includeIf('partials.user.sidebar')
@@ -39,14 +39,14 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="dsd-boxed-widget py-5 px-4 bg-danger rounded">
                             <h2 class="ft-medium mb-1 fs-xl text-light count">{{ $active_listings }}</h2>
-                            <p class="p-0 m-0 text-light fs-md">@lang('Active Listings')</p>
+                            <p class="p-0 m-0 text-light fs-md">@lang('Active Restaurants')</p>
                             <i class="lni lni-empty-file"></i>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="dsd-boxed-widget py-5 px-4 bg-success rounded">
                             <h2 class="ft-medium mb-1 fs-xl text-light count">{{ $view_listings }}</h2>
-                            <p class="p-0 m-0 text-light fs-md">@lang('Views Listing')</p>
+                            <p class="p-0 m-0 text-light fs-md">@lang('Views Restaurant')</p>
                             <i class="lni lni-eye"></i>
                         </div>
                     </div>

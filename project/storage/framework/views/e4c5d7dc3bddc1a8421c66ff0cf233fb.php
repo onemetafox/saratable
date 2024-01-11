@@ -36,7 +36,7 @@
                     <div class="footer_widget">
                         <h4 class="widget_title"><?php echo app('translator')->get('Main Navigation'); ?></h4>
                         <ul class="footer-menu">
-                            <li><a href="<?php echo e(route('front.listing')); ?>"><?php echo app('translator')->get('Explore Listings'); ?></a></li>
+                            <li><a href="<?php echo e(route('front.listing')); ?>"><?php echo app('translator')->get('Explore Restaurants'); ?></a></li>
                             <li><a href="<?php echo e(route('front.plans')); ?>"><?php echo app('translator')->get('Pricing Plan'); ?></a></li>
                             <li><a href="<?php echo e(route('front.blog')); ?>"><?php echo app('translator')->get('Blogs'); ?></a></li>
                             <li><a href="<?php echo e(route('front.contact')); ?>"><?php echo app('translator')->get('Contact'); ?></a></li>

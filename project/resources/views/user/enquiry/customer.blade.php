@@ -56,7 +56,7 @@
                                                     <div class="dsd-single-book-title"><h5>{{ $data->user->name }}<span class="bko-dates">{{ $data->user->created_at->format('d M, Y h:i A') }}</span></h5></div>
                                                     <div class="dsd-single-descr">
                                                         <div class="dsd-single-item">
-                                                            <span class="dsd-item-title">@lang('Listing Item'):</span>
+                                                            <span class="dsd-item-title">@lang('Restaurant Item'):</span>
                                                             <span class="dsd-item-info">{{ $data->listing->name }}</span>
                                                         </div>
 

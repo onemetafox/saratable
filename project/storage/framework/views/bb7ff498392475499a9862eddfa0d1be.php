@@ -78,7 +78,7 @@
     <?php endif; ?>
 
     <?php if(in_array('Feature Directory', $home_modules)): ?>
-        <!-- ======================= All Types Listing ======================== -->
+        <!-- ======================= All Types Restaurant ======================== -->
         <section class="space min">
             <div class="container">
 
@@ -503,11 +503,11 @@
 
             </div>
         </section>
-        <!-- ======================= All Types Listing ======================== -->
+        <!-- ======================= All Types Restaurant ======================== -->
     <?php endif; ?>
 
     <?php if(in_array('Category', $home_modules)): ?>
-        <!-- ======================= Listing Categories ======================== -->
+        <!-- ======================= Restaurant Categories ======================== -->
         <section class="space min gray">
             <div class="container">
 
@@ -527,7 +527,7 @@
                             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="cats-wrap text-center">
                                     <a href="<?php echo e(route('front.listing',['category' => [$category->slug]])); ?>" class="Rego-catg-wrap">
-                                        <div class="Rego-catg-city"><?php echo e($category->listings->where('status',1)->count()); ?> <?php echo app('translator')->get('Listings'); ?></div>
+                                        <div class="Rego-catg-city"><?php echo e($category->listings->where('status',1)->count()); ?> <?php echo app('translator')->get('Restaurants'); ?></div>
                                         <div class="Rego-catg-icon"><i class="<?php echo e($category->icon); ?>"></i></div>
                                         <div class="Rego-catg-caption">
                                             <h4 class="fs-md mb-0 ft-medium m-catrio"><?php echo e($category->title); ?></h4>
@@ -543,7 +543,7 @@
 
             </div>
         </section>
-        <!-- ======================= Listing Categories End ======================== -->
+        <!-- ======================= Restaurant Categories End ======================== -->
     <?php endif; ?>
 
     <?php if(in_array('Mission', $home_modules)): ?>

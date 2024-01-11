@@ -23,11 +23,11 @@
                 <div class="dashboard-tlbar d-block mb-5">
                     <div class="row">
                         <div class="colxl-12 col-lg-12 col-md-12">
-                            <h1 class="ft-medium">@lang('Listings Analytics')</h1>
+                            <h1 class="ft-medium">@lang('Restaurants Analytics')</h1>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item text-muted"><a href="{{ route('front.index') }}">@lang('Home')</a></li>
-                                    <li class="breadcrumb-item"><a href="{{ route('user.listing.index') }}" class="theme-cl">@lang('Manage Listings')</a></li>
+                                    <li class="breadcrumb-item"><a href="{{ route('user.listing.index') }}" class="theme-cl">@lang('Manage Restaurants')</a></li>
                                 </ol>
                             </nav>
                         </div>
@@ -40,7 +40,7 @@
                             <div class="dashboard-list-wraps bg-white rounded mb-4">
                                 <div class="dashboard-list-wraps-head br-bottom py-3 px-3">
                                     <div class="dashboard-list-wraps-flx">
-                                        <h4 class="mb-0 ft-medium fs-md"><i class="fa fa-file-alt me-2 theme-cl fs-sm"></i>@lang('Listing Statistics')</h4>
+                                        <h4 class="mb-0 ft-medium fs-md"><i class="fa fa-file-alt me-2 theme-cl fs-sm"></i>@lang('Restaurant Statistics')</h4>
                                     </div>
                                 </div>
 
@@ -48,7 +48,7 @@
                                     <div class="dashboard-listing-wraps">
                                         @foreach ($listings as $key => $data)
                                             @php
-                                                $listing = \App\Models\Listing::findOrFail($data->listing_id);
+                                                $listing = \App\Models\Restaurant::findOrFail($data->listing_id);
                                             @endphp
                                             <div class="dsd-single-listing-wraps">
                                                 <div class="dsd-single-lst-thumb">

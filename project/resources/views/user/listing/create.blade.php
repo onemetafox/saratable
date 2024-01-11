@@ -22,11 +22,11 @@
             <div class="dashboard-tlbar d-block mb-5">
                 <div class="row">
                     <div class="colxl-12 col-lg-12 col-md-12">
-                        <h1 class="ft-medium">@lang('Add Listing')</h1>
+                        <h1 class="ft-medium">@lang('Add Restaurant')</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item text-muted"><a href="{{ route('front.index') }}">@lang('Home')</a></li>
-                                <li class="breadcrumb-item"><a href="{{ route('user.listing.create',['type'=> request()->type]) }}" class="theme-cl">@lang('Create Listing')</a></li>
+                                <li class="breadcrumb-item"><a href="{{ route('user.listing.create',['type'=> request()->type]) }}" class="theme-cl">@lang('Create Restaurant')</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -103,11 +103,11 @@
 
                                     <div class="tab-content">
                                         <div id="user_basic" class="container tab-pane active"><br>
-                                            <!-- Listing Info -->
+                                            <!-- Restaurant Info -->
                                             <div class="dashboard-list-wraps bg-white rounded mb-4">
                                                 <div class="dashboard-list-wraps-head br-bottom py-3 px-3">
                                                     <div class="dashboard-list-wraps-flx">
-                                                        <h4 class="mb-0 ft-medium fs-md"><i class="fa fa-file me-2 theme-cl fs-sm"></i>@lang('Listing Info')</h4>
+                                                        <h4 class="mb-0 ft-medium fs-md"><i class="fa fa-file me-2 theme-cl fs-sm"></i>@lang('Restaurant Info')</h4>
                                                     </div>
                                                 </div>
 
@@ -130,15 +130,15 @@
                                                         @else
                                                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                                 <div class="form-group">
-                                                                    <label class="mb-1">@lang('Listing Tile')</label>
-                                                                    <input type="text" name="name" class="form-control rounded" placeholder="@lang('Listing Title')" />
+                                                                    <label class="mb-1">@lang('Restaurant Tile')</label>
+                                                                    <input type="text" name="name" class="form-control rounded" placeholder="@lang('Restaurant Title')" />
                                                                 </div>
                                                             </div>
 
                                                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                                 <div class="form-group">
-                                                                    <label class="mb-1">@lang('Listing Slug')</label>
-                                                                    <input type="text" name="slug" class="form-control rounded" placeholder="@lang('Listing Slug')" />
+                                                                    <label class="mb-1">@lang('Restaurant Slug')</label>
+                                                                    <input type="text" name="slug" class="form-control rounded" placeholder="@lang('Restaurant Slug')" />
                                                                 </div>
                                                             </div>
                                                         @endif
@@ -256,7 +256,7 @@
 
                                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="mb-1">@lang('Listing Video Provider')</label>
+                                                                <label class="mb-1">@lang('Restaurant Video Provider')</label>
                                                                 <select name="listing_video_provider" class="form-control">
                                                                     <option value="youtube">{{ __('Youtube') }}</option>
                                                                 </select>
@@ -265,13 +265,13 @@
 
                                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="mb-1">@lang('Listing Video Url')</label>
+                                                                <label class="mb-1">@lang('Restaurant Video Url')</label>
                                                                 <input type="text" class="form-control rounded" name="listing_video" placeholder="https://www.youtube.com/watch?v=AXrHbrMrun0" />
                                                             </div>
                                                         </div>
 
                                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                                            <label class="mb-1">@lang('Listing Thumbnail')</label>
+                                                            <label class="mb-1">@lang('Restaurant Thumbnail')</label>
                                                             <div class="wrapper-image-preview">
                                                                 <div class="box">
                                                                     <div class="back-preview-image" style="background-image: url({{ asset('assets/images/default.png') }});"></div>
@@ -284,7 +284,7 @@
                                                         </div>
 
                                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 my-2">
-                                                            <label class="mb-1">@lang('Listing Thumbnail')</label>
+                                                            <label class="mb-1">@lang('Restaurant Thumbnail')</label>
                                                             <div class="form-group">
                                                                 <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#setgallery" id="#myBtn">
                                                                     <i class="icofont-plus"></i> {{__('Set Gallery')}}

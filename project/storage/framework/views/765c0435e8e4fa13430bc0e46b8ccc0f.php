@@ -42,7 +42,7 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#manage_properties" aria-expanded="true" aria-controls="collapseTable">
             <i class="fas fa-map-signs"></i>
-            <span><?php echo e(__('Directory Listing')); ?></span>
+            <span><?php echo e(__('Directory Restaurant')); ?></span>
         </a>
         <div id="manage_properties" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
@@ -141,7 +141,7 @@
                 <a class="collapse-item" href="<?php echo e(route('admin.ps.hero')); ?>"><?php echo e(__('Hero Section')); ?></a>
                 <a class="collapse-item" href="<?php echo e(route('admin.mission.index')); ?>"><?php echo e(__('Mission Section')); ?></a>
                 <a class="collapse-item" href="<?php echo e(route('admin.account.process.index')); ?>"><?php echo e(__('Process Section')); ?></a>
-                <a class="collapse-item" href="<?php echo e(route('admin.ps.listing')); ?>"><?php echo e(__('Listing Submit Section')); ?></a>
+                <a class="collapse-item" href="<?php echo e(route('admin.ps.listing')); ?>"><?php echo e(__('Restaurant Submit Section')); ?></a>
                 <a class="collapse-item" href="<?php echo e(route('admin.review.index')); ?>"><?php echo e(__('Testimonial Section')); ?></a>
                 <a class="collapse-item" href="<?php echo e(route('admin.partner.index')); ?>"><?php echo e(__('Partner Section')); ?></a>
                 <a class="collapse-item" href="<?php echo e(route('admin.faq.index')); ?>"><?php echo e(__('FAQ Section')); ?></a>

@@ -50,12 +50,12 @@
             </div>
 
             <div class="form-group">
-                <label for="limit">{{ __('Listing Limit') }}</label>
+                <label for="limit">{{ __('Restaurant Limit') }}</label>
                 <input type="number" class="form-control" id="limit" name="post_limit" placeholder="0" min="0" value="{{ $data->post_limit }}">
             </div>
 
             <div class="form-group">
-                <label for="limit">{{ __('Listing Duration') }} (@lang('Days'))</label>
+                <label for="limit">{{ __('Restaurant Duration') }} (@lang('Days'))</label>
                 <input type="number" class="form-control" id="limit" name="post_duration" placeholder="0" min="0" value="{{ $data->post_duration }}">
             </div>
 

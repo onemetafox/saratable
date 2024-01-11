@@ -54,7 +54,7 @@
     @endif
 
     @if (in_array('Category', $home_modules))
-        <!-- =========================== Listing Category ======================= -->
+        <!-- =========================== Restaurant Category ======================= -->
             <section class="gray middle min">
                 <div class="container">
 
@@ -71,7 +71,7 @@
                         @foreach ($categories as $key=>$data)
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                                 <div class="Rego-img-catg-wrap">
-                                    <div class="Rego-catg-city">{{ $data->listings->where('status',1)->count()}} @lang('Listings')</div>
+                                    <div class="Rego-catg-city">{{ $data->listings->where('status',1)->count()}} @lang('Restaurants')</div>
                                     <div class="Rego-img-catg-thumb"><a href="{{ route('front.listing',['category' => [$data->slug]]) }}"><img src="{{ asset('assets/images/'.$data->photo) }}" class="img-fluid" alt=""></a></div>
                                     <div class="Rego-img-catg-caption">
                                         <h4 class="fs-md mb-0 ft-medium m-catrio">{{ $data->title }}</h4>
@@ -84,11 +84,11 @@
 
                 </div>
             </section>
-        <!-- =========================== Listing Category End ===================== -->
+        <!-- =========================== Restaurant Category End ===================== -->
     @endif
 
     @if (in_array('Feature Directory', $home_modules))
-        <!-- ===========================  Featured Listing ======================= -->
+        <!-- ===========================  Featured Restaurant ======================= -->
             <section class="space min">
                 <div class="container">
 
@@ -193,7 +193,7 @@
 
                 </div>
             </section>
-        <!-- =========================== Featured Listing End ===================== -->
+        <!-- =========================== Featured Restaurant End ===================== -->
     @endif
 
     @if (in_array('Packages', $home_modules))

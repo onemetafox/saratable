@@ -70,7 +70,7 @@
     @endif
 
     @if (in_array('Feature Directory', $home_modules))
-        <!-- ======================= All Listing ======================== -->
+        <!-- ======================= All Restaurant ======================== -->
         <section class="space min">
             <div class="container">
 
@@ -192,11 +192,11 @@
 
             </div>
         </section>
-        <!-- ======================= All Listings ======================== -->
+        <!-- ======================= All Restaurants ======================== -->
     @endif
 
     @if (in_array('Category', $home_modules))
-        <!-- ======================= Listing Categories ======================== -->
+        <!-- ======================= Restaurant Categories ======================== -->
         <section class="space min gray">
             <div class="container">
 
@@ -216,7 +216,7 @@
                             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="cats-wrap text-center">
                                     <a href="{{ route('front.listing',['category' => [$category->slug]]) }}" class="Rego-catg-wrap">
-                                        <div class="Rego-catg-city">{{ $category->listings->where('status',1)->count()}} @lang('Listings')</div>
+                                        <div class="Rego-catg-city">{{ $category->listings->where('status',1)->count()}} @lang('Restaurants')</div>
                                         <div class="Rego-catg-icon"><i class="{{ $category->icon }}"></i></div>
                                         <div class="Rego-catg-caption">
                                             <h4 class="fs-md mb-0 ft-medium m-catrio">{{ $category->title }}</h4>
@@ -231,7 +231,7 @@
 
             </div>
         </section>
-        <!-- ======================= Listing Categories End ======================== -->
+        <!-- ======================= Restaurant Categories End ======================== -->
     @endif
 
     @if (in_array('Location', $home_modules))
@@ -292,7 +292,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="counter-link">
-                            <a href="{{ route('front.listing') }}" class="btn btn-md text-dark ft-medium btn-light">@lang('Explore & Submit Listings')</a>
+                            <a href="{{ route('front.listing') }}" class="btn btn-md text-dark ft-medium btn-light">@lang('Explore & Submit Restaurants')</a>
                         </div>
                     </div>
                 </div>

@@ -25,8 +25,8 @@
                      </li>
 
                      <li class="list-group-item d-flex justify-content-between">
-                        <span class="menu-items"><?php echo e(__('Listing')); ?></span>
-                        <a data-title="<?php echo e(__('Listing')); ?>" data-dropdown="no" data-href="/listing" data-target="self" class="btn btn-primary btn-sm btn-rounded addToMenu" href="javascript:;"><?php echo e(__('Add To Menu')); ?></a>
+                        <span class="menu-items"><?php echo e(__('Restaurant')); ?></span>
+                        <a data-title="<?php echo e(__('Restaurant')); ?>" data-dropdown="no" data-href="/listing" data-target="self" class="btn btn-primary btn-sm btn-rounded addToMenu" href="javascript:;"><?php echo e(__('Add To Menu')); ?></a>
                      </li>
 
                      <li class="list-group-item d-flex justify-content-between">
@@ -35,8 +35,8 @@
                      </li>
 
                      <li class="list-group-item d-flex justify-content-between">
-                        <span class="menu-items"><?php echo e(__('Blog')); ?></span>
-                        <a data-title="<?php echo e(__('Blog')); ?>" data-dropdown="no" data-href="/blogs" data-target="self" class="btn btn-primary btn-sm btn-rounded addToMenu" href="javascript:;"><?php echo e(__('Add To Menu')); ?></a>
+                        <span class="menu-items"><?php echo e(__('Voting')); ?></span>
+                        <a data-title="<?php echo e(__('Voting')); ?>" data-dropdown="no" data-href="/voting" data-target="self" class="btn btn-primary btn-sm btn-rounded addToMenu" href="javascript:;"><?php echo e(__('Add To Menu')); ?></a>
                      </li>
 
                      <li class="list-group-item d-flex justify-content-between">

@@ -3,9 +3,9 @@
         <ul data-submenu-title="Main Navigation">
             <li class="{{ request()->routeIs('user.dashboard') ? 'active' : '' }}"><a href="{{ route('user.dashboard') }}"><i class="lni lni-dashboard me-2"></i>@lang('Dashboard')</a></li>
             <li class="{{ request()->routeIs('user.transaction') ? 'active' : '' }}"><a href="{{ route('user.transaction') }}"><i class="lni lni-stats-up me-2"></i>@lang('Transactions')</a></li>
-            <li class="{{ request()->routeIs('user.listing.type') ? 'active' : '' }}"><a href="{{ route('user.listing.type') }}"><i class="lni lni-add-files me-2"></i>@lang('Add Listing')</a></li>
-            <li class="{{ request()->routeIs('user.listing.index') ? 'active' : '' }}"><a href="{{ route('user.listing.index') }}"><i class="lni lni-files me-2"></i>@lang('My Listings')</a></li>
-            <li class="{{ request()->routeIs('user.saved.listing') ? 'active' : '' }}"><a href="{{ route('user.saved.listing') }}"><i class="lni lni-bookmark me-2"></i>@lang('Saved Listing')</a></li>
+            <li class="{{ request()->routeIs('user.listing.type') ? 'active' : '' }}"><a href="{{ route('user.listing.type') }}"><i class="lni lni-add-files me-2"></i>@lang('Add Restaurant')</a></li>
+            <li class="{{ request()->routeIs('user.listing.index') ? 'active' : '' }}"><a href="{{ route('user.listing.index') }}"><i class="lni lni-files me-2"></i>@lang('My Restaurants')</a></li>
+            <li class="{{ request()->routeIs('user.saved.listing') ? 'active' : '' }}"><a href="{{ route('user.saved.listing') }}"><i class="lni lni-bookmark me-2"></i>@lang('Saved Restaurant')</a></li>
             <li class="{{ request()->routeIs('user.my.booking') ? 'active' : '' }}"><a href="{{ route('user.my.booking') }}"><i class="lni lni-briefcase me-2"></i>@lang('My Bookings')</a></li>
             <li class="{{ request()->routeIs('user.pricing.plans') ? 'active' : '' }}"><a href="{{ route('user.pricing.plans') }}"><i class="lni lni-money-protection me-2"></i>@lang('Pricing Plan')</a></li>
             @if ($ticket = DB::table('admin_user_conversations')->orderBy('id','desc')->first())

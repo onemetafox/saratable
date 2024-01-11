@@ -51,11 +51,11 @@
 </li>
 @endif
 
-@if(Auth::guard('admin')->user()->sectionCheck('Directory Listing'))
+@if(Auth::guard('admin')->user()->sectionCheck('Directory Restaurant'))
 <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#manage_properties" aria-expanded="true" aria-controls="collapseTable">
         <i class="fas fa-map-signs"></i>
-        <span>{{  __('Directory Listing') }}</span>
+        <span>{{  __('Directory Restaurant') }}</span>
     </a>
     <div id="manage_properties" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">

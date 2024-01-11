@@ -34,7 +34,7 @@
                     <div class="footer_widget">
                         <h4 class="widget_title">@lang('Main Navigation')</h4>
                         <ul class="footer-menu">
-                            <li><a href="{{ route('front.listing') }}">@lang('Explore Listings')</a></li>
+                            <li><a href="{{ route('front.listing') }}">@lang('Explore Restaurants')</a></li>
                             <li><a href="{{ route('front.plans') }}">@lang('Pricing Plan')</a></li>
                             <li><a href="{{ route('front.blog') }}">@lang('Blogs')</a></li>
                             <li><a href="{{ route('front.contact') }}">@lang('Contact')</a></li>

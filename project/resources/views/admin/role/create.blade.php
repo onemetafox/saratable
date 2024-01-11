@@ -84,8 +84,8 @@
             <div class="col-md-6">
                 <div class="form-group">
                   <div class="custom-control custom-switch">
-                    <input type="checkbox" name="section[]" value="Directory Listing" class="custom-control-input" id="Directory Listing">
-                    <label class="custom-control-label" for="Directory Listing">{{__('Directory Listing')}}</label>
+                    <input type="checkbox" name="section[]" value="Directory Restaurant" class="custom-control-input" id="Directory Restaurant">
+                    <label class="custom-control-label" for="Directory Restaurant">{{__('Directory Restaurant')}}</label>
                     </div>
                 </div>
             </div>

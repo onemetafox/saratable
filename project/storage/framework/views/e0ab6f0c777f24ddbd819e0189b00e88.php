@@ -51,7 +51,7 @@
 
                             <li class="add-listing">
                                 <a href="<?php echo e(route('user.listing.type')); ?>" >
-                                    <i class="fas fa-plus me-2"></i><?php echo app('translator')->get('Add Listing'); ?>
+                                    <i class="fas fa-plus me-2"></i><?php echo app('translator')->get('Add Restaurant'); ?>
                                 </a>
                             </li>
                         <?php else: ?>
@@ -62,7 +62,7 @@
                             </li>
                             <li class="add-listing">
                                 <a href="<?php echo e(route('user.listing.type')); ?>" >
-                                    <i class="fas fa-plus me-2"></i><?php echo app('translator')->get('Add Listing'); ?>
+                                    <i class="fas fa-plus me-2"></i><?php echo app('translator')->get('Add Restaurant'); ?>
                                 </a>
                             </li>
                         <?php endif; ?>
@@ -121,7 +121,7 @@
 
                         <li class="add-listing">
                             <a href="<?php echo e(route('user.listing.type')); ?>" >
-                                <i class="fas fa-plus me-2"></i><?php echo app('translator')->get('Add Listing'); ?>
+                                <i class="fas fa-plus me-2"></i><?php echo app('translator')->get('Add Restaurant'); ?>
                             </a>
                         </li>
                     <?php else: ?>
@@ -132,7 +132,7 @@
                         </li>
                         <li class="add-listing">
                             <a href="<?php echo e(route('user.listing.type')); ?>" >
-                                <i class="fas fa-plus me-2"></i><?php echo app('translator')->get('Add Listing'); ?>
+                                <i class="fas fa-plus me-2"></i><?php echo app('translator')->get('Add Restaurant'); ?>
                             </a>
                         </li>
                     <?php endif; ?>

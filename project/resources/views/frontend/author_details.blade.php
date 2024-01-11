@@ -44,7 +44,7 @@
                                             <div class="list-kjvr">
                                                 <div class="list-kjvr-icon bg-light-sky text-sky"><i class="fas fa-file"></i></div>
                                                 <div class="list-kjvr-ctr"><h6 class="count">{{ count($user->listings) }}</h6></div>
-                                                <div class="list-kjvr-text">@lang('Listings')</div>
+                                                <div class="list-kjvr-text">@lang('Restaurants')</div>
                                             </div>
                                         </li>
                                         <li>
@@ -68,7 +68,7 @@
                                             <div class="list-kjvr">
                                                 <div class="list-kjvr-icon bg-light-sky text-sky"><i class="fas fa-file"></i></div>
                                                 <div class="list-kjvr-ctr"><h6 class="count">{{ count(DB::table('listings')->where('user_id',NULL)->where('admin_id',NULL)->get()) }}</h6></div>
-                                                <div class="list-kjvr-text">@lang('Listings')</div>
+                                                <div class="list-kjvr-text">@lang('Restaurants')</div>
                                             </div>
                                         </li>
                                         <li>

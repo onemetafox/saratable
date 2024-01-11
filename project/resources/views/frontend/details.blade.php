@@ -98,7 +98,7 @@
     </div>
     <!-- ======================= Searchbar Banner ======================== -->
 
-    <!-- ============================ Listing Details Start ================================== -->
+    <!-- ============================ Restaurant Details Start ================================== -->
     <section class="gray py-5 position-relative">
         <div class="container">
             <div class="row">
@@ -521,7 +521,7 @@
                             <div class="Rego-iuky">
                                 <ul>
                                     <li>{{ DB::table('recent_views_listings')->where('listing_owner_id',$data->user->id)->count() }}<span>@lang('Views')</span></li>
-                                    <li>{{ count($data->user->listings) }}<span>@lang('Listings')</span></li>
+                                    <li>{{ count($data->user->listings) }}<span>@lang('Restaurants')</span></li>
                                     <li>{{ DB::table('followers')->where('user_id',$data->user->id)->count() }}<span>@lang('Followers')</span></li>
                                 </ul>
                             </div>
@@ -538,7 +538,7 @@
                             <div class="Rego-iuky">
                                 <ul>
                                     <li>{{ DB::table('recent_views_listings')->where('listing_owner_id','NULL')->count() }}<span>@lang('Views')</span></li>
-                                    <li>{{ DB::table('listings')->where('admin_id','NULL')->count() }}<span>@lang('Listings')</span></li>
+                                    <li>{{ DB::table('listings')->where('admin_id','NULL')->count() }}<span>@lang('Restaurants')</span></li>
                                     <li>{{ DB::table('followers')->where('user_id','NULL')->count() }}<span>@lang('Followers')</span></li>
                                 </ul>
                             </div>
@@ -604,9 +604,9 @@
             </div>
         </div>
     </section>
-    <!-- ============================ Listing Details End ================================== -->
+    <!-- ============================ Restaurant Details End ================================== -->
 
-    <!-- ======================= Related Listings ======================== -->
+    <!-- ======================= Related Restaurants ======================== -->
     @if (isset($$recentViews) && count($recentViews)>0)
         <section class="space min">
             <div class="container">
@@ -614,8 +614,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="sec_title position-relative text-center mb-5">
-                            <h6 class="theme-cl mb-0">@lang('Related Listing')</h6>
-                            <h2 class="ft-bold">@lang('Recently Viewed Listing')</h2>
+                            <h6 class="theme-cl mb-0">@lang('Related Restaurant')</h6>
+                            <h2 class="ft-bold">@lang('Recently Viewed Restaurant')</h2>
                         </div>
                     </div>
                 </div>
@@ -710,7 +710,7 @@
             </div>
         </section>
     @endif
-    <!-- ======================= Related Listings ======================== -->
+    <!-- ======================= Related Restaurants ======================== -->
 
     <!-- ============================ Call To Action ================================== -->
     @includeIf('partials.front.cta')

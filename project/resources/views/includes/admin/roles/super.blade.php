@@ -42,7 +42,7 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#manage_properties" aria-expanded="true" aria-controls="collapseTable">
             <i class="fas fa-map-signs"></i>
-            <span>{{  __('Directory Listing') }}</span>
+            <span>{{  __('Directory Restaurant') }}</span>
         </a>
         <div id="manage_properties" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
@@ -141,7 +141,7 @@
                 <a class="collapse-item" href="{{ route('admin.ps.hero') }}">{{ __('Hero Section') }}</a>
                 <a class="collapse-item" href="{{ route('admin.mission.index') }}">{{ __('Mission Section') }}</a>
                 <a class="collapse-item" href="{{ route('admin.account.process.index') }}">{{ __('Process Section') }}</a>
-                <a class="collapse-item" href="{{ route('admin.ps.listing') }}">{{ __('Listing Submit Section') }}</a>
+                <a class="collapse-item" href="{{ route('admin.ps.listing') }}">{{ __('Restaurant Submit Section') }}</a>
                 <a class="collapse-item" href="{{ route('admin.review.index') }}">{{ __('Testimonial Section') }}</a>
                 <a class="collapse-item" href="{{ route('admin.partner.index') }}">{{ __('Partner Section') }}</a>
                 <a class="collapse-item" href="{{ route('admin.faq.index') }}">{{ __('FAQ Section') }}</a>

@@ -3,7 +3,7 @@
 @section('content')
     <div class="card">
         <div class="d-sm-flex align-items-center py-3 justify-content-between">
-            <h5 class=" mb-0 text-gray-800 pl-3">{{ __('Listing submit Section') }}</h5>
+            <h5 class=" mb-0 text-gray-800 pl-3">{{ __('Restaurant submit Section') }}</h5>
             <ol class="breadcrumb m-0 py-0">
                 <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">{{ __('Dashboard') }}</a></li>
                 <li class="breadcrumb-item"><a href="javascript:;">{{ __('Home Page Setting') }}</a></li>
@@ -13,7 +13,7 @@
 
     <div class="card mb-4 mt-3">
       <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-        <h6 class="m-0 font-weight-bold text-primary">{{ __('Listing submit Section') }}</h6>
+        <h6 class="m-0 font-weight-bold text-primary">{{ __('Restaurant submit Section') }}</h6>
       </div>
 
       <div class="card-body">

@@ -22,11 +22,11 @@
             <div class="dashboard-tlbar d-block mb-5">
                 <div class="row">
                     <div class="colxl-12 col-lg-12 col-md-12">
-                        <h1 class="ft-medium">@lang('Listing Type')</h1>
+                        <h1 class="ft-medium">@lang('Restaurant Type')</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item text-muted"><a href="{{ route('front.index') }}">@lang('Home')</a></li>
-                                <li class="breadcrumb-item"><a href="#" class="theme-cl">@lang('Add Listing')</a></li>
+                                <li class="breadcrumb-item"><a href="#" class="theme-cl">@lang('Add Restaurant')</a></li>
                             </ol>
                         </nav>
                     </div>
