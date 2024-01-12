@@ -1,12 +1,10 @@
 /node_modules
-/public/hot
-<<<<<<< HEAD
-/storage
-=======
-/storage/*
-/starage/framework/sessions/*
->>>>>>> d7fec48d1081330dd15133dc015b535fd64059fe
-/storage/*.key
+/hot
+/project/storage/sessions/*
+/project/storage/views/*
+/project/storage/*
+/project/storage/*.key
+/project/storage
 /vendor
 .env
 .env.backup
@@ -18,4 +16,3 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-/storage
