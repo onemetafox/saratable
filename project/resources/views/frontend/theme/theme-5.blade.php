@@ -97,24 +97,17 @@
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <ul class="nav nav-tabs small-tab mb-3" id="myTab" role="tablist">
+                            
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="restaurants-tab" data-bs-toggle="tab" data-bs-target="#restaurants" type="button" role="tab" aria-controls="restaurants" aria-selected="true">@lang('Restaurant')</button>
                             </li>
                             <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="beauty-tab" data-bs-toggle="tab" data-bs-target="#beauty" type="button" role="tab" aria-controls="beauty" aria-selected="false">@lang('Bar')</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="hotels-tab" data-bs-toggle="tab" data-bs-target="#hotels" type="button" role="tab" aria-controls="hotels" aria-selected="false">@lang('Hotel')</button>
                             </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="beauty-tab" data-bs-toggle="tab" data-bs-target="#beauty" type="button" role="tab" aria-controls="beauty" aria-selected="false">@lang('Beauty')</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="real-tab" data-bs-toggle="tab" data-bs-target="#real" type="button" role="tab" aria-controls="real_estate" aria-selected="true">@lang('Real estate')</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="doctor-tab" data-bs-toggle="tab" data-bs-target="#doctor" type="button" role="tab" aria-controls="doctor" aria-selected="false">@lang('Doctor')</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="car-tab" data-bs-toggle="tab" data-bs-target="#car" type="button" role="tab" aria-controls="car" aria-selected="false">@lang('Car')</button>
-                            </li>
+                            
                         </ul>
                     </div>
 

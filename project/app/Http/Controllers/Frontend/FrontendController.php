@@ -72,7 +72,7 @@ class FrontendController extends Controller
 
         $data['categories'] = Category::whereIsTop(1)
                                        ->whereStatus(1)
-                                       ->orderBy('id','desc')
+                                       ->orderBy('order','asc')
                                        ->get();
 
         $data['plans'] = Plan::whereStatus(1)
