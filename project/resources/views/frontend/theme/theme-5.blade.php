@@ -520,7 +520,7 @@
                 </div>
 
                 <!-- row -->
-                <div class="row align-items-center">
+                <div class="row justify-content-center">
                     @if ($categories)
                         @foreach ($categories as $key => $category)
                             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
