@@ -21,7 +21,7 @@ class CategoryController extends Controller
 
     public function datatables(Request $request)
     {
-        $datas = Category::where('listing_id', Auth::guard('admin')->user()->listing_id)->orderBy('id', 'desc');
+        $datas = Category::orderBy('id', 'desc');
 
         return Datatables::of($datas)
                         ->addColumn('checkbox',function(Category $data){

@@ -1,8 +1,10 @@
 /node_modules
 /hot
-/project/storage
+/project/storage/sessions/*
+/project/storage/views/*
 /project/storage/*
 /project/storage/*.key
+/project/storage
 /vendor
 .env
 .env.backup

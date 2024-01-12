@@ -68,18 +68,6 @@
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
               </select>
             </div>
-            <div class="form-group">
-              <label for="inp-name"><?php echo e(__('Select Directory')); ?></label>
-
-              <select class="form-control mb-3" name="listing_id">
-                <option value=""><?php echo e(__('Select Directory')); ?></option>
-                  <?php $__currentLoopData = DB::table('listings')->get(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $dta): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                  <option value="<?php echo e($dta->id); ?>" <?php echo e($data->listing_id == $dta->id ? 'selected' : ''); ?>><?php echo e($dta->name); ?></option>
-                  <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-              </select>
-            </div>
-
-
           <button type="submit" id="submit-btn" class="btn btn-primary w-100"><?php echo e(__('Submit')); ?></button>
 
         </form>
